@@ -262,7 +262,7 @@ def genesis_shelf(args):
     walls = []
     floors = []
 
-    plane = add_floor(scene, 0, args.room_x, 0, args.room_y, texture=args.floor_texture_dir, texture=args.wall_texture_dir)
+    plane = add_floor(scene, 0, args.room_x, 0, args.room_y, texture=args.floor_texture_dir, texture1=args.wall_texture_dir)
 
     floors = [plane]
 
